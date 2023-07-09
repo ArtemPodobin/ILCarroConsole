@@ -26,14 +26,10 @@ public class LoginTests extends TestBase{
     }
     @Test
     public void loginPositiveUser(){
-//    User user = new User("asd@fgh.com","$Asdf1234");
         User user = new User()
                 .withEmail("asd@fgh.com")
                 .withPassword("$Asdf1234")
                 ;
-//        user.setEmail("asd@fgh.com");
-//        user.setPassword("$Asdf1234");
-//        user.setEmail("");
     app.getUser().openLoginForm();
         app.getUser().fillLoginForm(user.getEmail(), user.getPassword());
         app.getUser().submitLogin();

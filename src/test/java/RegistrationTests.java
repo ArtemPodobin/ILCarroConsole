@@ -29,7 +29,8 @@ public class RegistrationTests extends TestBase {
         logger.info("registrationPositive starts with credentials: login "
                 + user.getEmail() + " & password: " + user.getPassword());
         Assert.assertTrue(app.getUser().isLoggedSuccess());
-    }
+
+}
     @Test
     public void registrationNegativeWrongPassword(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
@@ -37,16 +38,27 @@ public class RegistrationTests extends TestBase {
                 .withName("John")
                 .withLastName("Snow")
                 .withEmail("john_" + i + "@mail.com")
-                .withPassword("Asdf1234");
+                .withPassword("jhsdf1234");
 
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
         app.getUser().submitLogin();
-//        Assert.assertTrue(app.getUser().isLoggedSuccess());
+        Assert.assertTrue(!app.getUser().isLoggedSuccess());
     }
 
-    @AfterMethod
-    public void postcondition(){
-        app.getUser().clickOkButton();
+    @Test
+    public void registrationNegativeWrongEmail(){
+        int i = (int)(System.currentTimeMillis()/1000)%3600;
+        User user = new User()
+                .withName("John")
+                .withLastName("Snow")
+                .withEmail("john_" + i + "mail.com")
+                .withPassword("$jAhsdf1234");
+
+        app.getUser().openRegistrationForm();
+        app.getUser().fillRegistrationForm(user);
+        app.getUser().submitLogin();
+        Assert.assertTrue(!app.getUser().isLoggedSuccess());
     }
+
 }
