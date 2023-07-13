@@ -1,0 +1,32 @@
+01:38:05 INFO  manager.ApplicationManager - Tests start on Chrome
+01:38:06 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+01:38:06 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+01:38:06 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h1
+01:38:06 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h1 is found
+01:38:06 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+01:38:06 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+01:38:07 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+01:38:07 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+01:38:07 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+01:38:07 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+01:38:07 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@button]
+01:38:12 INFO  manager.WebDriverListener - Something went wrong!
+01:38:12 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@button]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9d89a1b8627f156edb635cf598b8c0f
+*** Element info: {Using=xpath, value=//button[@button]}
+01:38:12 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@button]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65238}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9d89a1b8627f156edb635cf598b8c0f
+*** Element info: {Using=xpath, value=//button[@button]}
+01:38:12 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-2292.png

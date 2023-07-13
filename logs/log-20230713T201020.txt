@@ -1,0 +1,43 @@
+20:10:21 INFO  manager.ApplicationManager - Tests start on Chrome
+20:10:23 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+20:10:23 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+20:10:23 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h1
+20:10:23 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h1 is found
+20:10:23 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+20:10:23 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+20:10:24 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+20:10:24 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+20:10:24 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+20:10:24 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+20:10:24 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+20:10:24 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+20:10:24 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //td[@aria-label='2023']
+20:10:24 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //td[@aria-label='2023'] is found
+20:10:24 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[normalize-space()='SEP']
+20:10:24 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[normalize-space()='SEP'] is found
+20:10:24 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[normalize-space()='27']
+20:10:24 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[normalize-space()='27'] is found
+20:10:24 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[normalize-space()='4']
+20:10:24 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //div[normalize-space()='4'] is found
+20:10:24 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+20:10:24 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+20:10:29 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: .search-results
+20:10:29 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: .search-results is found
+20:10:29 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+20:10:29 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+20:10:29 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+20:10:29 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+20:10:29 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h1
+20:10:29 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h1 is found
+20:10:29 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+20:10:29 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+20:10:31 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+20:10:31 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+20:10:31 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+20:10:31 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+20:10:32 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+20:10:32 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+20:10:37 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: .search-results
+20:10:42 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: .search-results is found
+20:10:42 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+20:10:42 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found

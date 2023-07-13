@@ -1,0 +1,38 @@
+19:39:37 INFO  manager.ApplicationManager - Tests start on Chrome
+19:39:39 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+19:39:39 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+19:39:39 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h1
+19:39:39 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h1 is found
+19:39:39 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+19:39:39 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+19:39:40 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+19:39:40 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+19:39:40 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+19:39:40 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+19:39:40 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+19:39:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+19:39:40 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //td[@aria-label='2024']
+19:39:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //td[@aria-label='2024'] is found
+19:39:40 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //div[@normalize-space()='JUN']
+19:39:40 INFO  manager.WebDriverListener - Something went wrong!
+19:39:40 INFO  manager.WebDriverListener - invalid selector: Unable to locate an element with the xpath expression //div[@normalize-space()='JUN'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@normalize-space()='JUN']' is not a valid XPath expression.
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88ce9e9cd677b13f399cd3d84aec8db6
+*** Element info: {Using=xpath, value=//div[@normalize-space()='JUN']}
+19:39:40 INFO  manager.WebDriverListener - org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@normalize-space()='JUN'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//div[@normalize-space()='JUN']' is not a valid XPath expression.
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54903}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88ce9e9cd677b13f399cd3d84aec8db6
+*** Element info: {Using=xpath, value=//div[@normalize-space()='JUN']}
+19:39:40 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-2380.png

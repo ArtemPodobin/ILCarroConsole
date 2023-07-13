@@ -1,0 +1,37 @@
+22:28:30 INFO  manager.ApplicationManager - Tests start on Chrome
+22:28:31 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+22:28:31 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+22:28:31 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h1
+22:28:31 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h1 is found
+22:28:31 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+22:28:31 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+22:28:31 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+22:28:31 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+22:28:31 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+22:28:31 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+22:28:31 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+22:28:31 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+22:28:32 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+22:28:32 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+22:28:32 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h1
+22:28:32 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h1 is found
+22:28:32 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+22:28:32 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+22:28:32 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+22:28:32 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+22:28:33 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+22:28:33 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+22:28:33 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+22:28:33 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+22:28:33 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+22:28:33 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+22:28:33 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h1
+22:28:33 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h1 is found
+22:28:33 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+22:28:33 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+22:28:33 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+22:28:33 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+22:28:33 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+22:28:33 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+22:28:33 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+22:28:33 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found

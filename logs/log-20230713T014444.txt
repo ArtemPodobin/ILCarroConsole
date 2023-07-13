@@ -1,0 +1,13 @@
+01:44:46 INFO  manager.ApplicationManager - Tests start on Chrome
+01:44:47 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+01:44:47 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+01:44:47 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h1
+01:44:47 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h1 is found
+01:44:47 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+01:44:47 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+01:44:48 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+01:44:48 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+01:44:48 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+01:44:48 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+01:44:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+01:44:48 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found

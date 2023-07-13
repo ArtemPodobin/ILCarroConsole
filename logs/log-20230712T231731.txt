@@ -1,0 +1,67 @@
+23:17:33 INFO  manager.ApplicationManager - Tests start on Chrome
+23:17:34 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+23:17:34 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+23:17:34 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h1
+23:17:34 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h1 is found
+23:17:34 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+23:17:34 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+23:17:34 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+23:17:36 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+23:17:36 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+23:17:36 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+23:17:36 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+23:17:36 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+23:17:39 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: .search-results
+23:17:44 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: .search-results is found
+23:17:44 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+23:17:44 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+23:17:44 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h1
+23:17:44 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h1 is found
+23:17:44 INFO  manager.WebDriverListener - Start searching element ----> By.id: city
+23:17:44 INFO  manager.WebDriverListener - Element with locator ----> By.id: city is found
+23:17:44 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+23:17:45 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+23:17:45 INFO  manager.WebDriverListener - Start searching element ----> By.id: dates
+23:17:45 INFO  manager.WebDriverListener - Element with locator ----> By.id: dates is found
+23:17:45 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+23:17:45 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+23:17:48 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: .search-results
+23:17:48 INFO  manager.WebDriverListener - Something went wrong!
+23:17:48 INFO  manager.WebDriverListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c0b3d0237fbb80b0560ad4823826e11
+*** Element info: {Using=css selector, value=.search-results}
+23:17:48 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c0b3d0237fbb80b0560ad4823826e11
+*** Element info: {Using=css selector, value=.search-results}
+23:17:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+23:17:48 INFO  manager.WebDriverListener - Something went wrong!
+23:17:48 INFO  manager.WebDriverListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c0b3d0237fbb80b0560ad4823826e11
+*** Element info: {Using=xpath, value=//*[.=' Search ']}
+23:17:48 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c0b3d0237fbb80b0560ad4823826e11
+*** Element info: {Using=xpath, value=//*[.=' Search ']}

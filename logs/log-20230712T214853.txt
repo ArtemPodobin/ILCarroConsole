@@ -1,0 +1,101 @@
+21:48:54 INFO  manager.ApplicationManager - Tests start on Chrome
+21:48:57 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+21:49:02 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+21:49:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+21:49:02 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+21:49:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+21:49:02 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+21:49:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+21:49:02 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+21:49:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+21:49:02 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+21:49:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+21:49:04 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+21:49:09 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[.=' Let the car work ']
+21:49:09 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[.=' Let the car work '] is found
+21:49:09 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h2
+21:49:09 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h2 is found
+21:49:09 INFO  manager.WebDriverListener - Start searching element ----> By.id: pickUpPlace
+21:49:09 INFO  manager.WebDriverListener - Element with locator ----> By.id: pickUpPlace is found
+21:49:09 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+21:49:10 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+21:49:10 INFO  manager.WebDriverListener - Start searching element ----> By.id: make
+21:49:10 INFO  manager.WebDriverListener - Element with locator ----> By.id: make is found
+21:49:10 INFO  manager.WebDriverListener - Start searching element ----> By.id: model
+21:49:10 INFO  manager.WebDriverListener - Element with locator ----> By.id: model is found
+21:49:10 INFO  manager.WebDriverListener - Start searching element ----> By.id: year
+21:49:10 INFO  manager.WebDriverListener - Element with locator ----> By.id: year is found
+21:49:10 INFO  manager.WebDriverListener - Start searching element ----> By.id: fuel
+21:49:10 INFO  manager.WebDriverListener - Element with locator ----> By.id: fuel is found
+21:49:10 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: .//option[@value = "Petrol"]
+21:49:10 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: .//option[@value = "Petrol"] is found
+21:49:10 INFO  manager.WebDriverListener - Start searching element ----> By.id: seats
+21:49:10 INFO  manager.WebDriverListener - Element with locator ----> By.id: seats is found
+21:49:10 INFO  manager.WebDriverListener - Start searching element ----> By.id: class
+21:49:10 INFO  manager.WebDriverListener - Element with locator ----> By.id: class is found
+21:49:10 INFO  manager.WebDriverListener - Start searching element ----> By.id: serialNumber
+21:49:10 INFO  manager.WebDriverListener - Element with locator ----> By.id: serialNumber is found
+21:49:10 INFO  manager.WebDriverListener - Start searching element ----> By.id: price
+21:49:10 INFO  manager.WebDriverListener - Element with locator ----> By.id: price is found
+21:49:10 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+21:49:10 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+21:49:10 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+21:49:11 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+21:49:16 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[.=' Let the car work ']
+21:49:16 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[.=' Let the car work '] is found
+21:49:17 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h2
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h2 is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: pickUpPlace
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: pickUpPlace is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: make
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: make is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: model
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: model is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: year
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: year is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: fuel
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: fuel is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: .//option[@value = "Petrol"]
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: .//option[@value = "Petrol"] is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: seats
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: seats is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: class
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: class is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: serialNumber
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: serialNumber is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.id: price
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.id: price is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+21:49:18 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+21:49:18 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+21:49:24 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[.=' Let the car work ']
+21:49:24 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[.=' Let the car work '] is found
+21:49:26 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h2
+21:49:26 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h2 is found
+21:49:26 INFO  manager.WebDriverListener - Start searching element ----> By.id: pickUpPlace
+21:49:26 INFO  manager.WebDriverListener - Element with locator ----> By.id: pickUpPlace is found
+21:49:27 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+21:49:27 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+21:49:27 INFO  manager.WebDriverListener - Start searching element ----> By.id: make
+21:49:27 INFO  manager.WebDriverListener - Element with locator ----> By.id: make is found
+21:49:27 INFO  manager.WebDriverListener - Start searching element ----> By.id: model
+21:49:27 INFO  manager.WebDriverListener - Element with locator ----> By.id: model is found
+21:49:27 INFO  manager.WebDriverListener - Start searching element ----> By.id: year
+21:49:27 INFO  manager.WebDriverListener - Element with locator ----> By.id: year is found
+21:49:27 INFO  manager.WebDriverListener - Start searching element ----> By.id: fuel
+21:49:27 INFO  manager.WebDriverListener - Element with locator ----> By.id: fuel is found
+21:49:27 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: .//option[@value = "Diesel"]
+21:49:27 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: .//option[@value = "Diesel"] is found
+21:49:27 INFO  manager.WebDriverListener - Start searching element ----> By.id: seats
+21:49:27 INFO  manager.WebDriverListener - Element with locator ----> By.id: seats is found
+21:49:27 INFO  manager.WebDriverListener - Start searching element ----> By.id: class
+21:49:27 INFO  manager.WebDriverListener - Element with locator ----> By.id: class is found
+21:49:27 INFO  manager.WebDriverListener - Start searching element ----> By.id: serialNumber
+21:49:27 INFO  manager.WebDriverListener - Element with locator ----> By.id: serialNumber is found
+21:49:27 INFO  manager.WebDriverListener - Start searching element ----> By.id: price
+21:49:27 INFO  manager.WebDriverListener - Element with locator ----> By.id: price is found
+21:49:27 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+21:49:27 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found

@@ -1,14 +1,16 @@
 package manager;
 
 import models.Car;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Rectangle;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.Calendar;
+import java.util.Random;
 
 public class HelperCar extends HelperBase{
     public HelperCar(WebDriver wd) {
@@ -39,6 +41,11 @@ public class HelperCar extends HelperBase{
         type(By.id("pickUpPlace"), address);
         click(By.cssSelector("div.pac-item"));
     }
+    public void typeCity(String address){
+        type(By.id("city"), address);
+        click(By.cssSelector("div.pac-item"));
+
+    }
 
     public void clickSerialNumber(String text){
 
@@ -64,4 +71,72 @@ public class HelperCar extends HelperBase{
                                 wd.findElement(By.cssSelector("h2")),
                                 "details"));
     }
+
+    public void fillSearchForm(Car car) {
+        if(isSearchForm()==false) return;
+        typeCity(car.getLocation());
+        typeDate(car.getDate());
+    }
+
+    private void typeDate(String date) {
+        type(By.id("dates"), date);
+
+    }
+
+    private boolean isSearchForm() {
+        return new WebDriverWait(wd, 10)
+                .until(ExpectedConditions
+                        .textToBePresentInElement(
+                                wd.findElement(By.cssSelector("h1")),
+                                "Find"));
+    }
+    public String getDate(){
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat date = new SimpleDateFormat("MM/dd/yyyy");
+        String datePickUp = date.format(calendar.getTime());
+        calendar.add(Calendar.DATE, 2);
+        String datePickDown = date.format(calendar.getTime());
+        String dates = datePickUp + " - " + datePickDown;
+        return dates;
+    }
+    private LocalDate getRandomDate(){
+        Random random = new Random();
+        int start = (int) LocalDate.now().toEpochDay();
+        int end = (int) LocalDate.now().plusYears(1).toEpochDay();
+        long randomDay = start + random.nextInt(end - start);
+        LocalDate date = LocalDate.ofEpochDay(randomDay);
+        return date;
+    }
+
+
+    public void fillSearchFormForRandomDates(Car car) {
+        if(isSearchForm()==false) return;
+        Random random = new Random();
+        LocalDate date = getRandomDate();
+        int i = random.nextInt(10);
+        String year = "//td[@aria-label='" + date.getYear() +"']";
+        String month = "//div[normalize-space()='"+ String.valueOf(date.getMonth()).substring(0, 3) +"']";
+        String start = "//div[normalize-space()='" + date.getDayOfMonth() + "']";
+        String end = "//div[normalize-space()='" + date.plusDays(i).getDayOfMonth() + "']";
+
+        typeCity(car.getLocation());
+        click(By.id("dates"));
+        click(By.xpath("//button[@type='button']"));
+        click(By.xpath(year));
+        click(By.xpath(month));
+        click(By.xpath(start));
+        click(By.xpath(end));
+
+
+
+
+
+
+
+
+
+
+
+    }
+
 }

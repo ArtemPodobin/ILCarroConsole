@@ -1,5 +1,7 @@
+import manager.ProviderData;
 import models.Car;
 import models.User;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -10,27 +12,35 @@ public class AddNewCar extends TestBase{
 
         if(app.getUser().isLogged() == false)
             app.getUser().login(
-                    new User().withEmail("asd@fgh.com").withPassword("$Asdf1234"));
+                     User.builder()
+                             .email("asd@fgh.com")
+                             .password("$Asdf1234")
+                             .build());
     }
 
-    @Test
-    public void addNewCarPositive(){
-        int i = (int)(System.currentTimeMillis()/1000)%3600;
-        Car car = Car.builder()
-                .location("Tel Aviv")
-                .make("KIA")
-                .model("Sportage")
-                .year("2023")
-                .fuel("Petrol")
-                .seats("5")
-                .carClass("B")
-                .carRegNumber("100-200-" + i)
-                .price("150")
-                .about("")
-                .build();
+    @Test(dataProvider = "carDto", dataProviderClass = ProviderData.class)
+    public void addNewCarPositive(Car car){
+//        int i = (int)(System.currentTimeMillis()/1000)%3600;
+//        Car car = Car.builder()
+//                .location("Tel Aviv")
+//                .make("KIA")
+//                .model("Sportage")
+//                .year("2023")
+//                .fuel("Petrol")
+//                .seats("5")
+//                .carClass("B")
+//                .carRegNumber("100-200-" + i)
+//                .price("150")
+//                .about("")
+//                .build();
     app.getCar().openCarForm();
     app.getCar().fillCarForm(car);
     app.getUser().submitLogin();
 
     }
+    @AfterMethod
+    public void postcondition(){
+
+    }
+
 }

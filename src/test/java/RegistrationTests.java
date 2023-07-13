@@ -14,11 +14,12 @@ public class RegistrationTests extends TestBase {
     @Test
     public void registrationPositive(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
-        User user = new User()
-                .withName("John")
-                .withLastName("Snow")
-                .withEmail("john_" + i + "@mail.com")
-                .withPassword("$Asdf1234");
+        User user = User.builder()
+                .name("John")
+                .lastName("Snow")
+                .email("john_" + i + "@mail.com")
+                .password("$Asdf1234")
+                .build();
 
         app.getUser().openRegistrationForm();
         logger.info("openRegistrationForm invoked");
@@ -34,11 +35,13 @@ public class RegistrationTests extends TestBase {
     @Test
     public void registrationNegativeWrongPassword(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
-        User user = new User()
-                .withName("John")
-                .withLastName("Snow")
-                .withEmail("john_" + i + "@mail.com")
-                .withPassword("jhsdf1234");
+
+        User user = User.builder()
+                .name("John")
+                .lastName("Snow")
+                .email("john_" + i + "@mail.com")
+                .password("jhsdf1234")
+                .build();
 
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
@@ -49,11 +52,13 @@ public class RegistrationTests extends TestBase {
     @Test
     public void registrationNegativeWrongEmail(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
-        User user = new User()
-                .withName("John")
-                .withLastName("Snow")
-                .withEmail("john_" + i + "mail.com")
-                .withPassword("$jAhsdf1234");
+        User user = User.builder()
+                .name("John")
+                .lastName("Snow")
+                .email("john_" + i + "mail.com")
+                .password("$jAhsdf1234")
+                .build();
+
 
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);

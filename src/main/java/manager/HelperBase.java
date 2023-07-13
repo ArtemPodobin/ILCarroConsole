@@ -20,9 +20,11 @@ public class HelperBase {
 
     public void type(By locator, String text){
         WebElement element = wd.findElement(locator);
-//        element.click();
+       // element.click();
         element.clear();
         element.sendKeys(text);
+        pause(1000);
+
     }
 
     public void pause(int millis){

@@ -22,6 +22,8 @@ public class HelperUser extends HelperBase{
         wd.findElement(By.xpath("//*[.=' Sign up ']")).click();
     }
 
+    public void openSearchForm() { wd.findElement(By.xpath("//*[.=' Search ']")).click();}
+
     public void fillLoginForm(String email, String password){
         type(By.xpath("//input[@id='email']"), email);
         type(By.xpath("//input[@id='password']"), password);
@@ -64,7 +66,7 @@ public class HelperUser extends HelperBase{
     public void submitLogin(){
 
 //        wd.findElement(By.xpath("//button[@type='submit']")).submit();
-        wd.findElement(By.xpath("//button[@type='submit']")).click();
+        wd.findElement(By.xpath("//button[@type='submit']")).submit();
     }
 
     public void logout(){

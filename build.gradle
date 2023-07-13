@@ -33,6 +33,8 @@ task mytest(type: Test){
         def suite = System.getProperty('suite','')
         if(suite.equals('reg')) {
             suites 'src/test/resources/reg.xml'
+        } else if(suite.equals('search')){
+            suites 'src/test/resources/add.xml'
         } else if(suite.equals('add')){
             suites 'src/test/resources/add.xml'
         } else {
