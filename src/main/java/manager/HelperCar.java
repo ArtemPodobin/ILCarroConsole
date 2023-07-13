@@ -112,20 +112,29 @@ public class HelperCar extends HelperBase{
     public void fillSearchFormForRandomDates(Car car) {
         if(isSearchForm()==false) return;
         Random random = new Random();
-        LocalDate date = getRandomDate();
-        int i = random.nextInt(10);
-        String year = "//td[@aria-label='" + date.getYear() +"']";
-        String month = "//div[normalize-space()='"+ String.valueOf(date.getMonth()).substring(0, 3) +"']";
-        String start = "//div[normalize-space()='" + date.getDayOfMonth() + "']";
-        String end = "//div[normalize-space()='" + date.plusDays(i).getDayOfMonth() + "']";
+        LocalDate startDate = getRandomDate();
+        int i = random.nextInt(365);
+        LocalDate endDate = startDate.plusDays(i);
+
+
+        String yearStart = "//td[@aria-label='" + startDate.getYear() +"']";
+        String monthStart = "//div[normalize-space()='"+ String.valueOf(startDate.getMonth()).substring(0, 3) +"']";
+        String dayStart = "//div[normalize-space()='" + startDate.getDayOfMonth() + "']";
+        String yearEnd = "//td[@aria-label='" + endDate.getYear() +"']";
+        String monthEnd = "//div[normalize-space()='"+ String.valueOf(endDate.getMonth()).substring(0, 3) +"']";
+        String dayEnd = "//div[normalize-space()='" + endDate.getDayOfMonth() + "']";
+
 
         typeCity(car.getLocation());
         click(By.id("dates"));
         click(By.xpath("//button[@type='button']"));
-        click(By.xpath(year));
-        click(By.xpath(month));
-        click(By.xpath(start));
-        click(By.xpath(end));
+        click(By.xpath(yearStart));
+        click(By.xpath(monthStart));
+        click(By.xpath(dayStart));
+        click(By.xpath("//button[@type='button']"));
+        click(By.xpath(yearEnd));
+        click(By.xpath(monthEnd));
+        click(By.xpath(dayEnd));
 
 
 
