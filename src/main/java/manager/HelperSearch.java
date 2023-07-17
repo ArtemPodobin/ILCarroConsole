@@ -1,7 +1,5 @@
 package manager;
 
-
-import models.Search;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -10,47 +8,107 @@ import java.time.format.DateTimeFormatter;
 
 public class HelperSearch extends HelperBase{
 
-
     public HelperSearch(WebDriver wd) {
         super(wd);
     }
-    public void fillSearchForms(Search search){
-        fillCity(search);
-        selectPeriod(search);
 
+    public void fillSearchForm(String city, String dateFrom, String dateTo){
+        fillCity(city);
+
+        selectPeriodYearsDatePicker(dateFrom, dateTo);
     }
-    public void fillCity(Search search){
-        type(By.id("city"), search.getCity());
+
+    public void fillCity(String address){
+        type(By.id("city"), address);
         click(By.cssSelector("div.pac-item"));
     }
-    public void submitForm(){
-        wd.findElement(By.xpath("//button[@type='submit']")).click();
+
+    public void selectPeriodDays(String dateFrom, String dateTo){
+;
+        type(By.id("dates"), dateFrom + " - " + dateTo);
+        click(By.id("city"));
+        pause(3000);
+
     }
-    public void selectPeriod(Search search){
 
-        String[] startDate = search.getStartDate().split("/");
-        String[] endDate = search.getEndDate().split("/");
+    public void selectPeriodDaysDatePicker(String dateFrom, String dateTo){
+        String[] startDate = dateFrom.split("/");
+        String[] endDate = dateTo.split("/");
+        click(By.id("dates"));
+        pause(1000);
+        String locatorStartDate = String.format("//div[.=' %s ']", startDate[1]);
+        String locatorEndDate = String.format("//div[.=' %s ']", endDate[1]);
+        click(By.xpath(locatorStartDate));
+        pause(1000);
+        click(By.xpath(locatorEndDate));
+        pause(3000);
+    }
 
-//        LocalDate fromDate = LocalDate.of(startDate[0], startDate[1], startDate[2]);
-//        LocalDate toDate = LocalDate.parse(search.getEndDate(), DateTimeFormatter.ofPattern("MMM/dd/yyyy"));
-
-
-
-        String yearStart = "//td[@aria-label='" + startDate[2] +"']";
-        String monthStart = "//div[normalize-space()='"+ startDate[0] +"']";
-        String dayStart = "//div[normalize-space()='" + startDate[1] + "']";
-        String yearEnd = "//td[@aria-label='" + endDate[2] +"']";
-        String monthEnd = "//div[normalize-space()='"+ endDate[0] +"']";
-        String dayEnd = "//div[normalize-space()='" + endDate[1] + "']";
+    public void selectPeriodMonthsDatePicker(String dateFrom, String dateTo){
+        int fromNowToStart = 0, fromStartToEnd = 0;
+        String[] startDate = dateFrom.split("/");
+        String[] endDate = dateTo.split("/");
 
         click(By.id("dates"));
-        click(By.xpath("//button[@type='button']"));
-        click(By.xpath(yearStart));
-        click(By.xpath(monthStart));
-        click(By.xpath(dayStart));
-        click(By.xpath("//button[@type='button']"));
-        click(By.xpath(yearEnd));
-        click(By.xpath(monthEnd));
-        click(By.xpath(dayEnd));
+
+        fromStartToEnd = Integer.parseInt(endDate[0]) - Integer.parseInt(startDate[0]);
+        if(LocalDate.now().getMonthValue() != Integer.parseInt(startDate[0])){
+            fromNowToStart = Integer.parseInt(startDate[0]) - LocalDate.now().getMonthValue();
+        }
+        for(int i = 0; i < fromNowToStart; i++){
+            click(By.xpath("//button[@aria-label='Next month']"));
+            pause(1000);
+        }
+        String locatorStartDate = String.format("//div[.=' %s ']", startDate[1]);
+        String locatorEndDate = String.format("//div[.=' %s ']", endDate[1]);
+        click(By.xpath(locatorStartDate));
+        pause(1000);
+        for(int i = 0; i < fromStartToEnd; i++){
+            click(By.xpath("//button[@aria-label='Next month']"));
+            pause(1000);
+        }
+        click(By.xpath(locatorEndDate));
+        pause(3000);
+    }
+
+    public void selectPeriodYearsDatePicker(String dateFrom, String dateTo){
+
+        LocalDate startDate = LocalDate.parse(dateFrom, DateTimeFormatter.ofPattern("MM/dd/yyyy"));
+        LocalDate endDate = LocalDate.parse(dateTo, DateTimeFormatter.ofPattern("MM/dd/yyyy"));
+        LocalDate nowDate = LocalDate.now();
+        String locatorStartDate = String.format("//div[.=' %s ']", startDate.getDayOfMonth());
+        String locatorEndDate = String.format("//div[.=' %s ']", endDate.getDayOfMonth());
+        click(By.id("dates"));
+
+        int startToEndMonth = startDate.getYear() - nowDate.getYear() == 0 ?
+                startDate.getMonthValue() - nowDate.getMonthValue() :
+                12 - nowDate.getMonthValue() + startDate.getMonthValue();
+
+        for(int i = 0; i < startToEndMonth; i++){
+            click(By.xpath("//button[@aria-label='Next month']"));
+            pause(1000);
+        }
+
+        click(By.xpath(locatorStartDate));
+
+        startToEndMonth = endDate.getYear() - startDate.getYear() == 0 ?
+                endDate.getMonthValue() - startDate.getMonthValue() :
+                12 - startDate.getMonthValue() + endDate.getMonthValue();
+
+        for(int i = 0; i < startToEndMonth; i++){
+            click(By.xpath("//button[@aria-label='Next month']"));
+            pause(1000);
+        }
+
+        click(By.xpath(locatorEndDate));
+    }
+    public void openSearchForm(){
+        wd.findElement(By.xpath("//a[@id='0']]")).click();
+
+    }
+
+
+    public void submitForm(){
+        wd.findElement(By.xpath("//button[@type='submit']")).click();
     }
 }

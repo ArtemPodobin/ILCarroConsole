@@ -4,6 +4,7 @@
     <test name="smoke" >
         <classes>
             <class name="LoginTests" />
+            <class name="SearchTests" />
         </classes>
     </test>
 
