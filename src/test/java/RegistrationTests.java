@@ -45,8 +45,9 @@ public class RegistrationTests extends TestBase {
 
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
-        app.getUser().submitLogin();
+        app.getUser().clickLogin();
         Assert.assertTrue(!app.getUser().isLoggedSuccess());
+
     }
 
     @Test
@@ -62,7 +63,7 @@ public class RegistrationTests extends TestBase {
 
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
-        app.getUser().submitLogin();
+        app.getUser().clickLogin();
         Assert.assertTrue(!app.getUser().isLoggedSuccess());
     }
 

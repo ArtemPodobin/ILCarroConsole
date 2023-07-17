@@ -1,0 +1,64 @@
+22:32:32 INFO  manager.ApplicationManager - Tests start on Chrome
+22:32:35 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+22:32:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+22:32:40 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+22:32:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+22:32:40 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+22:32:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+22:32:41 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+22:32:41 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+22:32:42 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+22:32:42 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+22:32:42 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+22:32:43 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+22:32:48 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[.=' Let the car work ']
+22:32:48 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[.=' Let the car work '] is found
+22:32:48 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h2
+22:32:48 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h2 is found
+22:32:48 INFO  manager.WebDriverListener - Start searching element ----> By.id: pickUpPlace
+22:32:48 INFO  manager.WebDriverListener - Element with locator ----> By.id: pickUpPlace is found
+22:32:49 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+22:32:49 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+22:32:49 INFO  manager.WebDriverListener - Start searching element ----> By.id: make
+22:32:49 INFO  manager.WebDriverListener - Element with locator ----> By.id: make is found
+22:32:50 INFO  manager.WebDriverListener - Start searching element ----> By.id: model
+22:32:50 INFO  manager.WebDriverListener - Element with locator ----> By.id: model is found
+22:32:51 INFO  manager.WebDriverListener - Start searching element ----> By.id: year
+22:32:51 INFO  manager.WebDriverListener - Element with locator ----> By.id: year is found
+22:32:53 INFO  manager.WebDriverListener - Start searching element ----> By.id: fuel
+22:32:53 INFO  manager.WebDriverListener - Element with locator ----> By.id: fuel is found
+22:32:53 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: .//option[@value = "Diesel"]
+22:32:53 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: .//option[@value = "Diesel"] is found
+22:32:53 INFO  manager.WebDriverListener - Start searching element ----> By.id: seats
+22:32:53 INFO  manager.WebDriverListener - Element with locator ----> By.id: seats is found
+22:32:54 INFO  manager.WebDriverListener - Start searching element ----> By.id: class
+22:32:54 INFO  manager.WebDriverListener - Element with locator ----> By.id: class is found
+22:32:55 INFO  manager.WebDriverListener - Start searching element ----> By.id: serialNumber
+22:32:55 INFO  manager.WebDriverListener - Element with locator ----> By.id: serialNumber is found
+22:32:56 INFO  manager.WebDriverListener - Start searching element ----> By.id: price
+22:32:56 INFO  manager.WebDriverListener - Element with locator ----> By.id: price is found
+22:32:57 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+22:32:57 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+22:32:57 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h1[normalize-space()='Car added']
+22:33:02 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h1[normalize-space()='Car added'] is found
+22:33:02 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[normalize-space()='Search cars']
+22:33:07 INFO  manager.WebDriverListener - Something went wrong!
+22:33:07 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Search cars']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a955fb6f09c26e885884f09783f569e1
+*** Element info: {Using=xpath, value=//button[normalize-space()='Search cars']}
+22:33:07 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Search cars']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a955fb6f09c26e885884f09783f569e1
+*** Element info: {Using=xpath, value=//button[normalize-space()='Search cars']}
+22:33:07 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-1987.png

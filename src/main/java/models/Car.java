@@ -22,10 +22,5 @@ public class Car {
     String carRegNumber;
     String price;
     String about;
-    String pickUpDate;
-    String dropDownDate;
-    String date;
-
-
 
 }

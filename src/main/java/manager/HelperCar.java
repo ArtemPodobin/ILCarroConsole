@@ -72,11 +72,6 @@ public class HelperCar extends HelperBase{
                                 "details"));
     }
 
-    public void fillSearchForm(Car car) {
-        if(isSearchForm()==false) return;
-        typeCity(car.getLocation());
-        typeDate(car.getDate());
-    }
 
     private void typeDate(String date) {
         type(By.id("dates"), date);
@@ -90,62 +85,6 @@ public class HelperCar extends HelperBase{
                                 wd.findElement(By.cssSelector("h1")),
                                 "Find"));
     }
-    public String getDate(){
-        Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat date = new SimpleDateFormat("MM/dd/yyyy");
-        String datePickUp = date.format(calendar.getTime());
-        calendar.add(Calendar.DATE, 2);
-        String datePickDown = date.format(calendar.getTime());
-        String dates = datePickUp + " - " + datePickDown;
-        return dates;
-    }
-    private LocalDate getRandomDate(){
-        Random random = new Random();
-        int start = (int) LocalDate.now().toEpochDay();
-        int end = (int) LocalDate.now().plusYears(1).toEpochDay();
-        long randomDay = start + random.nextInt(end - start);
-        LocalDate date = LocalDate.ofEpochDay(randomDay);
-        return date;
-    }
 
-
-    public void fillSearchFormForRandomDates(Car car) {
-        if(isSearchForm()==false) return;
-        Random random = new Random();
-        LocalDate startDate = getRandomDate();
-        int i = random.nextInt(365);
-        LocalDate endDate = startDate.plusDays(i);
-
-
-        String yearStart = "//td[@aria-label='" + startDate.getYear() +"']";
-        String monthStart = "//div[normalize-space()='"+ String.valueOf(startDate.getMonth()).substring(0, 3) +"']";
-        String dayStart = "//div[normalize-space()='" + startDate.getDayOfMonth() + "']";
-        String yearEnd = "//td[@aria-label='" + endDate.getYear() +"']";
-        String monthEnd = "//div[normalize-space()='"+ String.valueOf(endDate.getMonth()).substring(0, 3) +"']";
-        String dayEnd = "//div[normalize-space()='" + endDate.getDayOfMonth() + "']";
-
-
-        typeCity(car.getLocation());
-        click(By.id("dates"));
-        click(By.xpath("//button[@type='button']"));
-        click(By.xpath(yearStart));
-        click(By.xpath(monthStart));
-        click(By.xpath(dayStart));
-        click(By.xpath("//button[@type='button']"));
-        click(By.xpath(yearEnd));
-        click(By.xpath(monthEnd));
-        click(By.xpath(dayEnd));
-
-
-
-
-
-
-
-
-
-
-
-    }
 
 }

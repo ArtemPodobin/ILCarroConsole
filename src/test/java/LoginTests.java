@@ -25,9 +25,8 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(app.getUser().isLoggedSuccess());
 
     }
-    @Test(dataProvider = "userDto", dataProviderClass = ProviderData.class)
+    @Test(dataProvider = "userLogDtoCSV", dataProviderClass = ProviderData.class)
     public void loginPositiveUserDTO(User user){
-
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(user);
         app.getUser().submitLogin();

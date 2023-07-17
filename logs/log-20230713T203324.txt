@@ -1,0 +1,166 @@
+20:33:25 INFO  manager.ApplicationManager - Tests start on Chrome
+20:33:27 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+20:33:32 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+20:33:32 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+20:33:32 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+20:33:32 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+20:33:32 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+20:33:33 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+20:33:33 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+20:33:34 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+20:33:34 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+20:33:34 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+20:33:35 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='button'] is found
+20:33:35 INFO  manager.TestNgListener - Test addNewCarPositive invoked
+20:33:40 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[.=' Let the car work ']
+20:33:40 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[.=' Let the car work '] is found
+20:33:40 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: h2
+20:33:40 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: h2 is found
+20:33:40 INFO  manager.WebDriverListener - Start searching element ----> By.id: pickUpPlace
+20:33:40 INFO  manager.WebDriverListener - Element with locator ----> By.id: pickUpPlace is found
+20:33:41 INFO  manager.WebDriverListener - Start searching element ----> By.cssSelector: div.pac-item
+20:33:41 INFO  manager.WebDriverListener - Element with locator ----> By.cssSelector: div.pac-item is found
+20:33:41 INFO  manager.WebDriverListener - Start searching element ----> By.id: make
+20:33:41 INFO  manager.WebDriverListener - Element with locator ----> By.id: make is found
+20:33:42 INFO  manager.WebDriverListener - Start searching element ----> By.id: model
+20:33:42 INFO  manager.WebDriverListener - Element with locator ----> By.id: model is found
+20:33:43 INFO  manager.WebDriverListener - Start searching element ----> By.id: year
+20:33:43 INFO  manager.WebDriverListener - Element with locator ----> By.id: year is found
+20:33:44 INFO  manager.WebDriverListener - Start searching element ----> By.id: fuel
+20:33:44 INFO  manager.WebDriverListener - Element with locator ----> By.id: fuel is found
+20:33:44 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: .//option[@value = "Petrol"]
+20:33:44 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: .//option[@value = "Petrol"] is found
+20:33:44 INFO  manager.WebDriverListener - Start searching element ----> By.id: seats
+20:33:44 INFO  manager.WebDriverListener - Element with locator ----> By.id: seats is found
+20:33:46 INFO  manager.WebDriverListener - Start searching element ----> By.id: class
+20:33:46 INFO  manager.WebDriverListener - Element with locator ----> By.id: class is found
+20:33:47 INFO  manager.WebDriverListener - Start searching element ----> By.id: serialNumber
+20:33:47 INFO  manager.WebDriverListener - Element with locator ----> By.id: serialNumber is found
+20:33:48 INFO  manager.WebDriverListener - Start searching element ----> By.id: price
+20:33:48 INFO  manager.WebDriverListener - Element with locator ----> By.id: price is found
+20:33:49 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+20:33:49 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+20:33:49 INFO  manager.TestNgListener - Test addNewCarPositive successful
+20:33:49 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+20:33:49 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+20:33:49 INFO  manager.TestNgListener - Test addNewCarPositive invoked
+20:33:54 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[.=' Let the car work ']
+20:33:54 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[.=' Let the car work '] is found
+20:33:59 INFO  manager.WebDriverListener - Something went wrong!
+20:33:59 INFO  manager.WebDriverListener - element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:33:59 INFO  manager.WebDriverListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:33:59 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-2039.png
+20:33:59 INFO  manager.TestNgListener - Test addNewCarPositive failed: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:33:59 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+20:33:59 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+20:33:59 INFO  manager.TestNgListener - Test addNewCarPositive invoked
+20:34:04 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //a[.=' Let the car work ']
+20:34:04 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //a[.=' Let the car work '] is found
+20:34:09 INFO  manager.WebDriverListener - Something went wrong!
+20:34:09 INFO  manager.WebDriverListener - element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:34:09 INFO  manager.WebDriverListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:34:09 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-2049.png
+20:34:09 INFO  manager.TestNgListener - Test addNewCarPositive failed: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:34:09 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+20:34:09 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+20:34:09 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+20:34:09 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+20:34:14 INFO  manager.WebDriverListener - Something went wrong!
+20:34:14 INFO  manager.WebDriverListener - element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:34:14 INFO  manager.WebDriverListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:34:14 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-2054.png
+20:34:14 INFO  manager.TestNgListener - Test loginPositive invoked
+20:34:14 INFO  manager.TestNgListener - Test loginPositiveUserDTO invoked
+20:34:14 INFO  manager.TestNgListener - Test loginPositiveUserDTO invoked
+20:34:14 INFO  manager.TestNgListener - Test loginPositiveUserDTO invoked
+20:34:14 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+20:34:14 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+20:34:14 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+20:34:14 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+20:34:20 INFO  manager.WebDriverListener - Something went wrong!
+20:34:20 INFO  manager.WebDriverListener - element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:34:20 INFO  manager.WebDriverListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:34:20 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-2060.png
+20:34:20 INFO  manager.TestNgListener - Test registrationNegativeWrongEmail invoked
+20:34:20 INFO  manager.TestNgListener - Test registrationNegativeWrongPassword invoked
+20:34:20 INFO  manager.TestNgListener - Test registrationPositive invoked
+20:34:20 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+20:34:20 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+20:34:25 INFO  manager.WebDriverListener - Something went wrong!
+20:34:25 INFO  manager.WebDriverListener - element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:34:25 INFO  manager.WebDriverListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd4e4218576da5470251e6f752d7bc1e
+20:34:25 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-2065.png
+20:34:25 INFO  manager.TestNgListener - Test searchTestStringDate invoked
+20:34:25 INFO  manager.TestNgListener - Test searchTestYearDate invoked

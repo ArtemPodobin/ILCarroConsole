@@ -1,0 +1,3 @@
+22:17:52 INFO  manager.ApplicationManager - Tests start on Chrome
+22:17:53 INFO  manager.TestNgListener - Test loginPositiveUserDTO failed: org.testng.TestNGException: 
+Method public void LoginTests.loginPositiveUserDTO(models.User) requires a @DataProvider named : userLogDtoCSV() in class manager.ProviderData

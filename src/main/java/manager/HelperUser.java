@@ -68,6 +68,9 @@ public class HelperUser extends HelperBase{
 //        wd.findElement(By.xpath("//button[@type='submit']")).submit();
         wd.findElement(By.xpath("//button[@type='submit']")).submit();
     }
+    public void clickLogin(){
+        wd.findElement(By.xpath("//button[@type='submit']")).click();
+    }
 
     public void logout(){
     click(By.xpath("//*[.=' Logout ']"));

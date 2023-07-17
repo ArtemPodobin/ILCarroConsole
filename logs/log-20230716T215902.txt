@@ -1,0 +1,39 @@
+21:59:04 INFO  manager.ApplicationManager - Tests start on Chrome
+21:59:06 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Logout ']
+21:59:11 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Logout '] is found
+21:59:11 INFO  manager.TestNgListener - Test loginPositive invoked
+21:59:11 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Log in ']
+21:59:11 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Log in '] is found
+21:59:11 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='email']
+21:59:11 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='email'] is found
+21:59:12 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //input[@id='password']
+21:59:12 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //input[@id='password'] is found
+21:59:13 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='submit']
+21:59:13 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //button[@type='submit'] is found
+21:59:13 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //h2[contains(text(),'success')]
+21:59:18 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //h2[contains(text(),'success')] is found
+21:59:18 INFO  manager.TestNgListener - Test loginPositive failed: java.lang.AssertionError: expected [true] but found [false]
+21:59:18 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //button[@type='button']
+21:59:23 INFO  manager.WebDriverListener - Something went wrong!
+21:59:23 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae21fe4cb610aa6438e0933bc129108e
+*** Element info: {Using=xpath, value=//button[@type='button']}
+21:59:23 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KOMPUTER', ip: '192.168.2.202', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ARTEMP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ae21fe4cb610aa6438e0933bc129108e
+*** Element info: {Using=xpath, value=//button[@type='button']}
+21:59:23 INFO  manager.WebDriverListener - This is a link to screenshot with error ---> src/test/screenshots/screen-3563.png
+21:59:23 INFO  manager.TestNgListener - Test loginPositiveUserDTO invoked
+21:59:23 INFO  manager.TestNgListener - Test loginPositiveUserDTO invoked
+21:59:23 INFO  manager.TestNgListener - Test loginPositiveUserDTO invoked

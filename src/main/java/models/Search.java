@@ -1,4 +1,6 @@
 package models;
+
+
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -8,11 +10,9 @@ import lombok.ToString;
 @Getter
 @Builder
 @ToString
-public class User {
-
-     String name;
-     String lastName;
-     String email;
-     String password;
+public class Search {
+    String city;
+    String startDate;
+    String endDate;
 
 }

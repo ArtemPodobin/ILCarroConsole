@@ -1,6 +1,8 @@
 import manager.ProviderData;
 import models.Car;
 import models.User;
+import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -18,28 +20,18 @@ public class AddNewCar extends TestBase{
                              .build());
     }
 
-    @Test(dataProvider = "carDto", dataProviderClass = ProviderData.class)
+    @Test(dataProvider = "userAddDtoCSV", dataProviderClass = ProviderData.class)
     public void addNewCarPositive(Car car){
-//        int i = (int)(System.currentTimeMillis()/1000)%3600;
-//        Car car = Car.builder()
-//                .location("Tel Aviv")
-//                .make("KIA")
-//                .model("Sportage")
-//                .year("2023")
-//                .fuel("Petrol")
-//                .seats("5")
-//                .carClass("B")
-//                .carRegNumber("100-200-" + i)
-//                .price("150")
-//                .about("")
-//                .build();
+
     app.getCar().openCarForm();
     app.getCar().fillCarForm(car);
     app.getUser().submitLogin();
+    Assert.assertTrue(app.getCar().isElementPresent(By.xpath("//h1[normalize-space()='Car added']")));
 
     }
     @AfterMethod
     public void postcondition(){
+        app.getCar().click(By.xpath(("//button[normalize-space()='Search cars']")));
 
     }
 

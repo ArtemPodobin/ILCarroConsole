@@ -19,6 +19,7 @@ public class ApplicationManager {
     HelperUser user;
     HelperCar car;
     String browser;
+    HelperSearch search;
     public ApplicationManager(String browser){
         this.browser = browser;
     }
@@ -30,6 +31,9 @@ public class ApplicationManager {
 
     public HelperCar getCar() {
         return car;
+    }
+    public HelperSearch getSearch() {
+        return search;
     }
 
     @BeforeSuite

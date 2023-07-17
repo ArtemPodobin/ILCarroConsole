@@ -1,0 +1,7 @@
+01:02:51 INFO  manager.ApplicationManager - Tests start on Chrome
+01:02:53 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+01:02:53 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+01:02:53 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+01:02:53 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
+01:02:53 INFO  manager.WebDriverListener - Start searching element ----> By.xpath: //*[.=' Search ']
+01:02:53 INFO  manager.WebDriverListener - Element with locator ----> By.xpath: //*[.=' Search '] is found
